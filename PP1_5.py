@@ -13,6 +13,7 @@ def q1():
 
 def q2():
   numq2 = input("Input a number: ") #asking the user to input a number
+  numq2 = str(numq2) #turning their answer into a string datatype
   numq2 = numq2 + "4" #adding "4" to the end of their answer
   numq2 = float(numq2) #turning their answer into a float datatype
   print(numq2 + 2) #outputting their result plus two
@@ -27,12 +28,12 @@ def q4():
   numq4 = float(numq4) #turning their answer into a float
   numq4 = numq4 * 12 #mutiplying their answer by 12
   numq4 = int(numq4) #turning their answer into a integer datatype
-  print(numq4)
+  print(numq4) #outputting their result
 
 def q5():
-  numq5 = input("Input an integer: ")
-  numq5 = int(numq5)
-  print(f"Your number + 5 is {numq5 + 5}")
+  numq5 = input("Input an integer: ") #asking the user to input an integer
+  numq5 = int(numq5) #turning their answer into an integer datatype
+  print(f"Your number + 5 is {numq5 + 5}") #outputting "Your number + 5 is _their result_ + 5"
 
 
 #Comment this code out when running tests
